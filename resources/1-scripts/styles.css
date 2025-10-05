@@ -716,19 +716,19 @@ section h2 {
 .skills .skill .empatia       { animation: fill-empatia 1.4s forwards; }
 
 /* keyframes ajustados a tus porcentajes */
-@keyframes fill-r             { from {width:0%} to {width:85%} }
-@keyframes fill-python        { from {width:0%} to {width:85%} }
-@keyframes fill-estadistica   { from {width:0%} to {width:90%} }
-@keyframes fill-matematicas   { from {width:0%} to {width:85%} }
-@keyframes fill-ml            { from {width:0%} to {width:75%} }
-@keyframes fill-bio           { from {width:0%} to {width:70%} }
-@keyframes fill-htmlcss       { from {width:0%} to {width:80%} }
+@keyframes fill-r             { from {width:0%} to {width:80%} }
+@keyframes fill-python        { from {width:0%} to {width:75%} }
+@keyframes fill-estadistica   { from {width:0%} to {width:85%} }
+@keyframes fill-matematicas   { from {width:0%} to {width:80%} }
+@keyframes fill-ml            { from {width:0%} to {width:70%} }
+@keyframes fill-bio           { from {width:0%} to {width:65%} }
+@keyframes fill-htmlcss       { from {width:0%} to {width:75%} }
 
 @keyframes fill-comunicacion  { from {width:0%} to {width:80%} }
-@keyframes fill-trabajo       { from {width:0%} to {width:95%} }
-@keyframes fill-adaptabilidad { from {width:0%} to {width:95%} }
-@keyframes fill-resolucion    { from {width:0%} to {width:90%} }
-@keyframes fill-organizacion  { from {width:0%} to {width:95%} }
+@keyframes fill-trabajo       { from {width:0%} to {width:85%} }
+@keyframes fill-adaptabilidad { from {width:0%} to {width:90%} }
+@keyframes fill-resolucion    { from {width:0%} to {width:80%} }
+@keyframes fill-organizacion  { from {width:0%} to {width:85%} }
 @keyframes fill-creatividad   { from {width:0%} to {width:85%} }
 @keyframes fill-empatia       { from {width:0%} to {width:95%} }
 
