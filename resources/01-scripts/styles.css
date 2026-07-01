@@ -274,7 +274,7 @@ a:focus {
 /* ============================================================================================================================ */
 .inicio {
     background: linear-gradient(to top, rgba(30,35,38,0.8), rgba(30,35,38,1)),
-                url('../2-images/fondo_inicial.jpg') center/cover no-repeat;
+                url('../02-images/fondo_inicial.jpg') center/cover no-repeat;
     height: 100vh;
     color: #fff;
     display: flex;
