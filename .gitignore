@@ -1,0 +1,26 @@
+###############################################################################################################################
+# GIT IGNORE CONFIGURATION FILE
+###############################################################################################################################
+
+# Archivos del sistema (macOS)
+**/.DS_Store
+**/._*
+
+
+# Archivos temporales y de respaldo
+**/*.log
+**/*.tmp
+**/*.bak
+**/*.swp
+
+
+# Archivos de R (en cualquier nivel)
+**/.RData
+**/.Rhistory
+**/*.rds
+
+
+# Archivos de Python (en cualquier nivel)
+**/__pycache__/
+**/*.pyc
+**/venv/

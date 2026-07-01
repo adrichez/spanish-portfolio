@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Sánchez's portfolio</title>
+    <link rel="stylesheet" href="resources/1-scripts/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="resources/2-images/logo.svg">
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="resources/2-images/logo.svg" alt="Icono" class="logo-icon">
+                    <span>A</span><span>d</span><span>r</span><span>i</span><span>á</span><span>n</span> 
+                    <span>S</span><span>á</span><span>n</span><span>c</span><span>h</span><span>e</span><span>z</span>
+                </a>
+            </div>
+
+            <!-- Navegación -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#voluntariados" onclick="seleccionar()">VOLUNTARIADOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <!-- Icono menú responsive -->
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="resources/2-images/foto_perfil.jpg" alt="Foto de perfil de Adrián Sánchez Carrión">
+            </div>
+            <h1>Adrián Sánchez</h1>
+            <h2 style="margin-top: 15px">Científico de Datos & Estadístico</h2>
+            <div class="redes">
+                <a href="https://github.com/adrichez"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/adriichez"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/adrichez/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:asanca33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p>
+                Originario de Beas de Segura (Jaén) 🌳, me apasiona aprender, explorar nuevas ideas y conectar con personas de diferentes entornos. A lo largo de los años, he compaginado mis estudios con trabajos en hostelería, agricultura y educación 🍽️.
+            </p>
+
+            <p>
+                Soy graduado en Estadística por la Universidad de Granada 🎓. Durante la carrera, estudié en el extranjero en la Università di Padova (Italia) 🇮🇹 y fui seleccionado entre los 20 mejores estudiantes para el programa de liderazgo de la Incubadora de Talento de la UGR 🎖️. Estas experiencias, junto con mis primeros intercambios culturales en Inglaterra 🇬🇧, me ayudaron a crecer enormemente tanto a nivel personal como profesional.
+            </p>
+
+            <p>
+                En 2023/2024, me tomé un año sabático para realizar voluntariado con el Cuerpo Europeo de Solidaridad 🤲, hacer cursos y trabajar en el extranjero. Este periodo me permitió adquirir nuevas habilidades, construir relaciones significativas y mejorar mis idiomas 🇪🇺.
+            </p>
+
+            <p>
+                Recientemente completé mi Máster en Ciencia de Datos e Ingeniería de Computadores 👨🏻‍💻🧬. Paralelamente a mis estudios, trabajé como Desarrollador en Bioinformática en el CSIC-IPBLN 🧫, donde desarrollé mi Trabajo Fin de Máster (GenoScribe) y combiné la ciencia de datos con la investigación biomédica de vanguardia.
+            </p>
+
+            <p>
+                Actualmente, trabajo como <strong>Personal Técnico de Apoyo y Gestión de la I+D+i</strong> en el Instituto de Matemáticas de la Universidad de Granada (IMAG) 🖥️. En este puesto, gestiono infraestructuras IT, administro sistemas web y proporciono soporte técnico directo a grupos de investigación, continuando mi camino en la intersección entre la tecnología, los datos y la ciencia.
+            </p>
+
+
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Nacimiento ➤</strong>31/10/2001</li>
+                        <li><strong>Edad ➤</strong>24 años</li>
+                        <li><strong>Nacionalidad ➤</strong>Española</li>
+                        <li><strong>Teléfono ➤</strong><a href="tel:+34 673 49 99 51">+34 673 49 99 51</a></li>
+                        <li><strong>Email ➤</strong><a href="mailto:asanca33@gmail.com">asanca33@gmail.com</a></li>
+                        <li><strong>GitHub ➤</strong><a href="https://github.com/adrichez">https://github.com/adrichez</a></li>
+                        <li><strong>Dirección ➤</strong>Gonzalo Gallas, 11, Granada, España</li>
+                        <li><strong>Puesto ➤</strong><span>Bioinformático</span></li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes"><i class="fa-solid fa-camera"></i><span>FOTOGRAFÍA</span></div>
+                        <div class="interes"><i class="fa-solid fa-leaf"></i><span>NATURALEZA</span></div>
+                        <div class="interes"><i class="fa-solid fa-plane"></i><span>VIAJAR</span></div>
+                        <div class="interes"><i class="fa-solid fa-earth-europe"></i><span>CULTURAS</span></div>
+                        <div class="interes"><i class="fa-solid fa-film"></i><span>CINE</span></div>
+                        <div class="interes"><i class="fa-solid fa-book"></i><span>LECTURA</span></div>
+                        <div class="interes"><i class="fa-solid fa-music"></i><span>MÚSICA</span></div>
+                        <div class="interes"><i class="fa-solid fa-code"></i><span>TECNOLOGÍA</span></div>
+                        <div class="interes"><i class="fa-solid fa-bicycle"></i><span>CICLISMO</span></div>
+                        <div class="interes"><i class="fa-solid fa-basketball"></i><span>BASKET</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón CV -->
+            <div class="cv-container">
+                <a class="cv" href="resources/3-documents/Curriculum Vitae de Adrian Sanchez Carrion.pdf" download="AdrianSC_CV_ES.pdf">
+                    <button>Descargar CV Español <i class="fa-solid fa-download"></i></button>
+                </a>
+                <a class="cv" href="resources/3-documents/Adrian Sanchez Carrion's Curriculum Vitae.pdf" download="AdrianSC_CV_EN.pdf">
+                    <button>Descargar CV Inglés <i class="fa-solid fa-download"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Skills técnicas -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill"><span>R</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                    <div class="skill"><span>Python</span><div class="barra-skill"><div class="progreso"><span>70%</span></div></div></div>
+                    <div class="skill"><span>Estadística</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Matemáticas</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                    <div class="skill"><span>Machine Learning</span><div class="barra-skill"><div class="progreso"><span>70%</span></div></div></div>
+                    <div class="skill"><span>Bioinformática</span><div class="barra-skill"><div class="progreso"><span>65%</span></div></div></div>
+                    <div class="skill"><span>HTML / CSS</span><div class="barra-skill"><div class="progreso"><span>70%</span></div></div></div>
+                </div>
+                <!-- Soft skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill"><span>Comunicación</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                    <div class="skill"><span>Trabajo en equipo</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Adaptabilidad</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Resolución de problemas</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Organización</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Creatividad</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Empatía</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN CURRÍCULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Currículum</h2>
+            <div class="fila">
+                <!-- EXPERIENCIA -->
+                <div class="col izquierda">
+                    <h3>Experiencia</h3>
+
+                    <!-- IMAG-UGR -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Personal Técnico de Apoyo y Gestión de la I+D+i</h4>
+                        <p><i class="fas fa-building"></i>IMAG - UGR</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Granada, España <span style="color: gray;">(Actualidad)</span></p>
+                        <p><i class="fas fa-calendar-alt"></i>Julio 2026 - Presente</p>
+                        <p>Soporte técnico y gestión integral de la I+D+i, brindando asistencia directa a los grupos de investigación del instituto.</p>
+                        <ul>
+                            <li>Gestión de bases de datos científicas (Scopus, SciVal).</li>
+                            <li>Mantenimiento de infraestructura IT, servidores y equipos.</li>
+                            <li>Administración web e intranet de reservas de espacios.</li>
+                            <li>Comunicación institucional y difusión científica.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- IPBLN-CSIC -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Desarrollador en Bioinformática</h4>
+                        <p><i class="fas fa-building"></i>IPBLN - CSIC</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Granada, España <span style="color: gray;">(1 año, 2 meses)</span></p>
+                        <p><i class="fas fa-calendar-alt"></i>Abril 2025 - Junio 2026</p>
+                        <p>Beca JAE Intro ICU para el diseño de un sistema modular enfocado en la generación automatizada de informes bioinformáticos.</p>
+                        <ul>
+                            <li>Automatización de workflows con Quarto, R y Nextflow.</li>
+                            <li>Integración en HPC, nube y contenedores (Docker, Apptainer).</li>
+                            <li>Visualización interactiva de datos mediante D3.js.</li>
+                            <li>Aplicación de NLP para resúmenes automáticos (Python, JS).</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Hotel Avenida (Eventos) -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Camarero de Eventos</h4>
+                        <p><i class="fas fa-building"></i>Hotel Avenida</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, España</p>
+                        <p><i class="fas fa-calendar-alt"></i>Mayo 2018 - Diciembre 2025</p>
+                        <p>Especializado en la organización y servicio de grandes eventos, asegurando la satisfacción de los clientes y la coordinación eficiente del equipo de trabajo.</p>
+                        <ul>
+                            <li>Gestión de banquetes, bodas, comuniones y cenas.</li>
+                            <li>Atención al cliente en barra y salas.</li>
+                            <li>Trabajo en equipo para garantizar la excelencia del servicio.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Pizzería Paradís -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Camarero de Temporada</h4>
+                        <p><i class="fas fa-building"></i>Pizzería Paradís</p>
+                        <p><i class="fas fa-map-marker-alt"></i>L'Estartit, Girona, España</p>
+                        <p><i class="fas fa-calendar-alt"></i>Agosto 2024 - Septiembre 2024</p>
+                        <p>Servicio en tres establecimientos del mismo grupo, combinando atención en barra, terraza y restaurante para una clientela diversa e internacional.</p>
+                        <ul>
+                            <li>Preparación de cócteles y servicio de mesas.</li>
+                            <li>Coordinación diaria entre distintos locales.</li>
+                            <li>Atención a clientes internacionales con estándares de calidad.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Profesor particular -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Profesor Particular (STEM)</h4>
+                        <p><i class="fas fa-building"></i>Freelance</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, España</p>
+                        <p><i class="fas fa-calendar-alt"></i>Junio 2019 - Agosto 2023</p>
+                        <p>Clases de matemáticas, física, economía e informática adaptadas a las necesidades de cada estudiante, fomentando el pensamiento crítico y la participación activa.</p>
+                        <ul>
+                            <li>Diseño de materiales didácticos personalizados.</li>
+                            <li>Fomento del pensamiento crítico y participación.</li>
+                            <li>Colaboración en programas educativos PROA.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Hotel Avenida (Inicio) -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Camarero de Bar</h4>
+                        <p><i class="fas fa-building"></i>Hotel Avenida, Beas de Segura</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, España</p>
+                        <p><i class="fas fa-calendar-alt"></i>Junio 2019 - Septiembre 2019</p>
+                        <p>Desempeño en bar, restaurante, terraza y piscina, desarrollando habilidades en atención al cliente y gestión de eventos de gran capacidad.</p>
+                        <ul>
+                            <li>Servicio de comidas y bebidas en diferentes áreas.</li>
+                            <li>Organización de eventos y logística de servicio.</li>
+                            <li>Gestión de equipos en situaciones de alta demanda.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+                </div>
+
+
+                <!-- EDUCACIÓN -->
+                    <div class="col derecha">
+                        <h3>Educación</h3>
+
+                        <!-- Máster en Ciencia de Datos e Ingeniería de Computadores -->
+                        <div class="item der">
+                            <h4><i class="fas fa-graduation-cap"></i>Máster en Ciencia de Datos e Ingeniería de Computadores</h4>
+                            <p><i class="fas fa-building"></i>Universidad de Granada · ETSIIT</p>
+                            <p><i class="fas fa-map-marker-alt"></i>Granada, España</p>
+                            <p><i class="fas fa-calendar-alt"></i>Sep 2024 - Dic 2025</p>
+                            <p>Formación avanzada en ciencia de datos, inteligencia artificial y computación aplicada a biomedicina. Enfoque práctico en modelado predictivo, análisis ómico y generación de informes reproducibles. <span>Nota media: 8.8/10.</span></p>
+                            <ul>
+                                <li>Machine Learning · Deep Learning · Redes neuronales</li>
+                                <li>Bioinformática · Transcriptómica y genómica</li>
+                                <li>Big Data · Minería de datos · Estadística avanzada</li>
+                            </ul>
+                            <div class="conectord"><div class="circulod"></div></div>
+                        </div>
+
+                        <!-- Diploma de Experto en Aprendizaje Automático Avanzado en Python -->
+                        <div class="item der">
+                            <h4><i class="fas fa-graduation-cap"></i>Diploma de Experto en Aprendizaje Automático Avanzado en Python</h4>
+                            <p><i class="fas fa-building"></i>Universidad de Málaga · E.T.S. de Ingeniería Informática</p>
+                            <p><i class="fas fa-map-marker-alt"></i>Málaga, España</p>
+                            <p><i class="fas fa-calendar-alt"></i>Nov 2024 - Jun 2025</p>
+                            <p>Programa especializado en machine learning y deep learning con Python, orientado a la creación, optimización y despliegue de modelos predictivos avanzados. <span>Nota media: 9.7/10.</span></p>
+                            <ul>
+                                <li>Redes neuronales profundas · NLP · Visión por computador</li>
+                                <li>Optimización y regularización de modelos</li>
+                                <li>Sistemas de recomendación y aplicaciones reales</li>
+                            </ul>
+                            <div class="conectord"><div class="circulod"></div></div>
+                        </div>
+
+                        <!-- Programa de Aceleración de Competencias Profesionales -->
+                        <div class="item der">
+                            <h4><i class="fas fa-graduation-cap"></i>Programa de Aceleración de Competencias Profesionales</h4>
+                            <p><i class="fas fa-building"></i>Universidad de Granada · Incubadora de Talento</p>
+                            <p><i class="fas fa-map-marker-alt"></i>Granada, España</p>
+                            <p><i class="fas fa-calendar-alt"></i>Nov 2022 - May 2023</p>
+                            <p>Seleccionado entre los 20 mejores estudiantes de la UGR para el desarrollo de competencias profesionales clave. Formación intensiva en liderazgo, comunicación, trabajo en equipo y creatividad aplicada al entorno laboral.</p>
+                            <ul>
+                                <li>Soft skills: liderazgo, comunicación, gestión de equipos</li>
+                                <li>Creatividad e innovación aplicada</li>
+                                <li>Resolución de problemas en entornos complejos</li>
+                            </ul>
+                            <div class="conectord"><div class="circulod"></div></div>
+                        </div>
+
+                        <!-- Grado en Estadística (Erasmus+ Program) -->
+                        <div class="item der">
+                            <h4><i class="fas fa-graduation-cap"></i>Grado en Estadística (Erasmus+ Program)</h4>
+                            <p><i class="fas fa-building"></i>Università degli Studi di Padova · Dipartimento di Scienze Statistiche</p>
+                            <p><i class="fas fa-map-marker-alt"></i>Padua, Italia</p>
+                            <p><i class="fas fa-calendar-alt"></i>Sep 2021 - Jul 2022</p>
+                            <p>Intercambio internacional que permitió profundizar en inteligencia artificial, marketing cuantitativo y métodos estadísticos avanzados en un entorno multicultural. <span>Nota media: 9.2/10.</span></p>
+                            <ul>
+                                <li>Asignaturas en IA, marketing, demografía y estadística</li>
+                                <li>Adaptación a un contexto académico internacional</li>
+                                <li>Desarrollo de competencias lingüísticas y culturales</li>
+                            </ul>
+                            <div class="conectord"><div class="circulod"></div></div>
+                        </div>
+
+                        <!-- Grado en Estadística -->
+                        <div class="item der">
+                            <h4><i class="fas fa-graduation-cap"></i>Grado en Estadística</h4>
+                            <p><i class="fas fa-building"></i>Universidad de Granada · Facultad de Ciencias</p>
+                            <p><i class="fas fa-map-marker-alt"></i>Granada, España</p>
+                            <p><i class="fas fa-calendar-alt"></i>Sep 2019 - Jul 2023</p>
+                            <p>Formación sólida en modelado estadístico, programación y análisis multivariante, con aplicaciones en bioestadística, demografía y minería de datos. <span>Nota media: 8.3/10.</span></p>
+                            <ul>
+                                <li>Álgebra, análisis matemático, series temporales</li>
+                                <li>Inferencia estadística y análisis multivariante</li>
+                                <li>Bioestadística · Minería de datos · Demografía</li>
+                            </ul>
+                            <div class="conectord"><div class="circulod"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <!-- Proyecto 1: Nextflow RNA-Seq -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/nextflow-rna-seq">
+                        <img src="resources/4-projects/nextflow_rna_seq.gif" alt="">
+                        <div class="overlay">
+                            <h3>Nextflow RNA-Seq</h3>
+                            <p>Workflow para el análisis de secuenciación de RNA con Nextflow.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 2: GenoScribe -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/GenoScribe">
+                        <img src="resources/4-projects/tfm_genocribe.gif" alt="">
+                        <div class="overlay">
+                            <h3>GenoScribe</h3>
+                            <p>Generación de informes bioinformáticos automatizados y reproducibles.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 3: Red Social de Harry Potter -->
+                <div class="proyecto">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/overlay/1744737532382/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/4-projects/harry_potter_social_network.gif" alt="">
+                        <div class="overlay">
+                            <h3>Red Social de Harry Potter</h3>
+                            <p>Obtención de la red social de Harry Potter utilizando técnicas de web scraping y análisis de datos.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 4: Metodología Seis Sigma -->
+                <div class="proyecto">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/overlay/1739365695028/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/4-projects/tfg_six_sigma_metodology.gif" alt="">
+                        <div class="overlay">
+                            <h3>Metodología Seis Sigma</h3>
+                            <p>Implementación de la metodología Seis Sigma para la mejora de la calidad de un producto en una empresa real.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/photo-organizer">
+                        <img src="resources/4-projects/photo_organizer.gif" alt="">
+                        <div class="overlay">
+                            <h3>Organizador de Fotos</h3>
+                            <p>Organiza automáticamente tus fotos en carpetas de año/mes según los metadatos EXIF o la fecha de modificación del archivo.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/qr-generator">
+                        <img src="resources/4-projects/qr_generator.gif" alt="">
+                        <div class="overlay">
+                            <h3>Generador de QR</h3>
+                            <p>Genera códigos QR simples o personalizados fácilmente para URLs, texto u otros datos.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN VOLUNTARIADOS -->
+    <section id="voluntariados" class="voluntariados">
+        <div class="contenido-seccion">
+            <h2>Voluntariados</h2>
+            <div class="galeria">
+                <!-- Voluntariado 1 -->
+                <div class="voluntariado">
+                    <a href="https://drive.google.com/file/d/1ZDVK9DdR-r4w276E4ij9GDI720axWHyl/view"><img src="resources/5-volunteerings/Associazione_Kora.gif" alt=""><div class="overlay"><h3>ESC - Associazione Kora</h3><h4>Passignano, Peruggia, Italia</h4><p>Durante el verano de 2024 participé en un voluntariado internacional en Italia con la Associazione Kora y el Cuerpo Europeo de Solidaridad. Colaboré en la organización de eventos culturales, talleres y actividades medioambientales, fomentando la sostenibilidad y el intercambio intercultural. Además, documenté las iniciativas mediante fotografía, vídeo y redes sociales.</p></div></a>
+                </div>
+
+                <!-- Voluntariado 2 -->
+                <div class="voluntariado">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/details/volunteering-experiences/1745532932331/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0"><img src="resources/5-volunteerings/Fundacion_Escuela_Solidaridad.gif" alt=""><div class="overlay"><h3>Escuela de Solidaridad</h3><h4>Sierra Elvira, Granada, España</h4><p>Durante ocho meses colaboré en la Fundación Escuela de Solidaridad en Granada, apoyando la inclusión social y la mejora de la calidad de vida de personas en situación de vulnerabilidad. Diseñé campañas creativas de recaudación de fondos, desarrollé materiales promocionales y organicé eventos solidarios. Además, participé en actividades educativas y de apoyo directo a los residentes.</p></div></a>
+                </div>
+
+                <!-- Voluntariado 3 -->
+                <div class="voluntariado">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/details/volunteering-experiences/1745533112437/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0"><img src="resources/5-volunteerings/ESN_Padova.gif" alt=""><div class="overlay"><h3>ESN Padova</h3><h4>Padova, Padova, Italia</h4><p>Durante nueve meses formé parte de ESN Padova, apoyando la integración de estudiantes internacionales en Italia mediante eventos culturales, talleres y visitas guiadas. Coordiné actividades socioculturales, brindé orientación práctica y gestioné la logística de eventos. Esta experiencia fortaleció mis competencias en comunicación intercultural, trabajo en equipo y organización.</p></div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/mldpbkoo" method="POST">
+                        <input name="name" type="text" placeholder="Tu Nombre" autocomplete="name">
+                        <input name="email" type="email" placeholder="Correo electrónico" autocomplete="email">
+                        <input name="topic" type="text" placeholder="Asunto" autocomplete="off">
+                        <textarea name="message" cols="30" rows="22" placeholder="Mensaje" autocomplete="off"></textarea>
+                        <button>Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+                <!-- Información -->
+                <div class="col">
+                    <img src="resources/2-images/granada_mapa.png" alt="" style="height: 476px; border-radius: 10px;">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Gonzalo Gallas, 11, (Granada, España)</li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:asanca33@gmail.com">asanca33@gmail.com</a></li>
+                            <li><i class="fa-solid fa-mobile-screen"></i><a href="tel:+34 673 49 99 51">+34 673 49 99 51</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="https://github.com/adrichez"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:asanca33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="resources/1-scripts/script.js"></script>
+</body>
+</html>
